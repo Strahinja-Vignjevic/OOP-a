@@ -1,0 +1,39 @@
+package domaci0;
+
+public class main {
+
+	public static void main(String[] args) {
+		int i=15,j=25;
+		System.out.println("Broj 1:"+i+" Broj 2:"+j);
+		int k;
+		=j+i;
+		System.out.println("Zbir tih brojeva:"+k);
+		=j-i;
+		System.out.println("Razlika tih brojeva"+k);
+		=i*j;
+		System.out.println("Proizvod tih brojeva"+k);
+		double l;
+		=(double)j/(double)i;
+		System.out.println("Razlika tih brojeva:"+l);
+		String s1="string",s2="stirngšklj";
+		System.out.println("String 1:"+s1+" String 2:"+s2);
+		if(s1.equals(s2))
+		{
+			System.out.println("Podudarni su veoma");
+		}
+		else
+		{
+			System.out.println("Ne Podudarni su veoma");
+		}
+		s2="string";
+		if(s1.equals(s2))
+		{
+			System.out.println("Podudarni su veoma");
+		}
+		else
+		{
+			System.out.println("Ne Podudarni su veoma");
+		}
+	}
+
+}
