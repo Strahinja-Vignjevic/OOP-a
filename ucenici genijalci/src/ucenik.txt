@@ -1,0 +1,11 @@
+10
+P,MILE,N,4.50,O,
+S,NULE,Y,6.00, FTN, 3
+S,TRULE,Y,7.50, PMF, 2
+S,KANJE,Y,10.00, FTN, 1
+P,MANE,N, 2.00,K,
+P,DULE,N, 5.00,O,
+S,NOLE,Y, 9.53, DIF, 5
+P,SOLE,N, 4.92,K,
+S,DJOLE,Y, 7.65, Fakultet za strateski i operativni menadzment, 10
+P,JOLE,N, 3.76,O,
