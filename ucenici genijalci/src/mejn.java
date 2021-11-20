@@ -11,5 +11,7 @@ public class mejn {
 		}
 		Student s = sk.najboljiFakultetastehnickihnauka();
 		System.out.println("Najbolji Student na FTN-U je: " + s);
+		Peasant p = sk.najgoriosnovac();
+		System.out.println("Najgori osnovac je: "+p);
 	}
 }
