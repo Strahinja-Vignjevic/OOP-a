@@ -75,6 +75,9 @@ public class Skolica {
 		for (int i = 0; i < nizuc.length; i++) {
 			if (!nizuc[i].getStudent() && nizuc[i] instanceof Peasant) {
 				Peasant s = (Peasant) nizuc[i];
+				if(!s.getOsnovac()) {
+					continue;
+				}
 				if (najgori == null)
 					najgori = s;
 				else if ((s.getprosek() <= najgori.getprosek())&& s.getOsnovac())
