@@ -5,6 +5,12 @@ public class Ucenik {
 	private boolean jeStudent;
 	private double prosek;
 	
+	public Ucenik(){
+		ime = "";
+		jeStudent = false;
+		prosek = 5.00;
+	}
+	
 	public Ucenik(String ime, boolean jeStudent,double prosek) {
 		this.ime = ime;
 		this.jeStudent = jeStudent;
