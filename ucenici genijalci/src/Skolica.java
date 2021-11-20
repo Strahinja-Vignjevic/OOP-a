@@ -69,5 +69,18 @@ public class Skolica {
 		}
 		return najbolji;
 	}
-	
+	public Peasant najgoriosnovac() {
+		Peasant najgori = null;
+
+		for (int i = 0; i < nizuc.length; i++) {
+			if (!nizuc[i].getStudent() && nizuc[i] instanceof Peasant) {
+				Peasant s = (Peasant) nizuc[i];
+				if (najgori == null)
+					najgori = s;
+				else if ((s.getprosek() <= najgori.getprosek())&& s.getOsnovac())
+					najgori = s;
+			}
+		}
+		return najgori;
+	}
 }
